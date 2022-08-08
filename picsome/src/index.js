@@ -4,9 +4,13 @@ import {BrowserRouter as Router} from "react-router-dom"
 
 import App from "./App"
 
-ReactDOM.rnpender(
+ReactDOM.render(
     <Router>
+        <div>
         <App />
+        <h1>hi there app </h1>
+        </div>
+        
     </Router>, 
     document.getElementById("root")
 )
